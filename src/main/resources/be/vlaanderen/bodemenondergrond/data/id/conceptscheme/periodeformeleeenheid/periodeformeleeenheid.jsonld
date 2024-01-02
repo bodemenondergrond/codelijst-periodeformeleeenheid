@@ -1,0 +1,331 @@
+{
+    "@graph": [
+        {
+            "@id": "ct:DE",
+            "skos:topConceptOf": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Devoon"
+            },
+            "skos:inScheme": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "dc:identifier": "DE",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "cs:periodeformeleeenheid",
+            "skos:hasTopConcept": [
+                {
+                    "@id": "ct:NE"
+                },
+                {
+                    "@id": "ct:PA"
+                },
+                {
+                    "@id": "ct:OR"
+                },
+                {
+                    "@id": "ct:KR"
+                },
+                {
+                    "@id": "ct:PC"
+                },
+                {
+                    "@id": "ct:PE"
+                },
+                {
+                    "@id": "ct:JU"
+                },
+                {
+                    "@id": "ct:ON"
+                },
+                {
+                    "@id": "ct:QU"
+                },
+                {
+                    "@id": "ct:TR"
+                },
+                {
+                    "@id": "ct:CM"
+                },
+                {
+                    "@id": "ct:SI"
+                },
+                {
+                    "@id": "ct:DE"
+                },
+                {
+                    "@id": "ct:CB"
+                }
+            ]
+        },
+        {
+            "@id": "ct:PC",
+            "skos:topConceptOf": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Precambrium"
+            },
+            "skos:inScheme": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "dc:identifier": "PC",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:JU",
+            "skos:topConceptOf": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Jura"
+            },
+            "skos:inScheme": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "dc:identifier": "JU",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:QU",
+            "skos:topConceptOf": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Quartair"
+            },
+            "skos:inScheme": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "dc:identifier": "QU",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:ON",
+            "skos:topConceptOf": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "onbekend"
+            },
+            "skos:inScheme": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "dc:identifier": "ON",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:PE",
+            "skos:topConceptOf": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Perm"
+            },
+            "skos:inScheme": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "dc:identifier": "PE",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:CM",
+            "skos:topConceptOf": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Cambrium"
+            },
+            "skos:inScheme": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "dc:identifier": "CM",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:NE",
+            "skos:topConceptOf": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Neogeen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "dc:identifier": "NE",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:OR",
+            "skos:topConceptOf": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Ordovicium"
+            },
+            "skos:inScheme": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "dc:identifier": "OR",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:TR",
+            "skos:topConceptOf": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Trias"
+            },
+            "skos:inScheme": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "dc:identifier": "TR",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:KR",
+            "skos:topConceptOf": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Krijt"
+            },
+            "skos:inScheme": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "dc:identifier": "KR",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:CB",
+            "skos:topConceptOf": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Carboon"
+            },
+            "skos:inScheme": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "dc:identifier": "CB",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:PA",
+            "skos:topConceptOf": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Paleogeen"
+            },
+            "skos:inScheme": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "dc:identifier": "PA",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "ct:SI",
+            "skos:topConceptOf": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Siluur"
+            },
+            "skos:inScheme": {
+                "@id": "cs:periodeformeleeenheid"
+            },
+            "dc:identifier": "SI",
+            "@type": "skos:Concept"
+        },
+        {
+            "@id": "colt:periodeformeleeenheid",
+            "skos:member": [
+                {
+                    "@id": "ct:CB"
+                },
+                {
+                    "@id": "ct:DE"
+                },
+                {
+                    "@id": "ct:NE"
+                },
+                {
+                    "@id": "ct:PC"
+                },
+                {
+                    "@id": "ct:SI"
+                },
+                {
+                    "@id": "ct:JU"
+                },
+                {
+                    "@id": "ct:QU"
+                },
+                {
+                    "@id": "ct:PA"
+                },
+                {
+                    "@id": "ct:ON"
+                },
+                {
+                    "@id": "ct:CM"
+                },
+                {
+                    "@id": "ct:KR"
+                },
+                {
+                    "@id": "ct:OR"
+                },
+                {
+                    "@id": "ct:PE"
+                },
+                {
+                    "@id": "ct:TR"
+                }
+            ],
+            "dc:identifier": "periodeformeleeenheid",
+            "@type": "skos:Collection",
+            "skos:mappingRelation": {
+                "@id": "file:///tmp/RtmpGBCzxP/periodeformeleeenheid"
+            },
+            "skos:inScheme": {
+                "@id": "file:///tmp/RtmpGBCzxP/cs"
+            },
+            "skos:prefLabel": {
+                "@language": "nl",
+                "@value": "Collectie van periodeformeleeenheid."
+            }
+        }
+    ],
+    "@context": {
+        "cs": "https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/",
+        "ct": "https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/",
+        "dct": "http://purl.org/dc/terms/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "colt": "https://data.bodemenondergrond.vlaanderen.be/id/collection/periodeformeleeenheid/",
+        "dc": "http://purl.org/dc/elements/1.1/",
+        "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#"
+    }
+}

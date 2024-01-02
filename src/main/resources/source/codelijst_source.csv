@@ -1,16 +1,16 @@
 uri,type,dc.id,collection,notation,prefLabel,altLabel,broader,broaderTransitive,broadMatch,changeNote,closeMatch,definition,editorialNote,exactMatch,example,hiddenLabel,historyNote,inScheme,mappingRelation,note,related,relatedMatch,scopeNote,semanticRelation,topConceptOf
-colt:periodeformeleeenheden,skos:Collection,periodeformeleeenheden,,,Collectie van periodeformeleeenheden.,,,,,,,,,,,,,cs,periodeformeleeenheid,,,,,,
-ct:QU,skos:Concept,QU,colt:periodeformeleeenheden,,Quartair,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
-ct:NE,skos:Concept,NE,colt:periodeformeleeenheden,,Neogeen,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
-ct:PA,skos:Concept,PA,colt:periodeformeleeenheden,,Paleogeen,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
-ct:KR,skos:Concept,KR,colt:periodeformeleeenheden,,Krijt,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
-ct:JU,skos:Concept,JU,colt:periodeformeleeenheden,,Jura,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
-ct:TR,skos:Concept,TR,colt:periodeformeleeenheden,,Trias,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
-ct:PE,skos:Concept,PE,colt:periodeformeleeenheden,,Perm,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
-ct:CB,skos:Concept,CB,colt:periodeformeleeenheden,,Carboon,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
-ct:DE,skos:Concept,DE,colt:periodeformeleeenheden,,Devoon,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
-ct:SI,skos:Concept,SI,colt:periodeformeleeenheden,,Siluur,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
-ct:OR,skos:Concept,OR,colt:periodeformeleeenheden,,Ordovicium,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
-ct:CM,skos:Concept,CM,colt:periodeformeleeenheden,,Cambrium,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
-ct:PC,skos:Concept,PC,colt:periodeformeleeenheden,,Precambrium,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
-ct:ON,skos:Concept,ON,colt:periodeformeleeenheden,,onbekend,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
+colt:periodeformeleeenheid,skos:Collection,periodeformeleeenheid,,,Collectie van periodeformeleeenheid.,,,,,,,,,,,,,cs,periodeformeleeenheid,,,,,,
+ct:QU,skos:Concept,QU,colt:periodeformeleeenheid,,Quartair,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
+ct:NE,skos:Concept,NE,colt:periodeformeleeenheid,,Neogeen,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
+ct:PA,skos:Concept,PA,colt:periodeformeleeenheid,,Paleogeen,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
+ct:KR,skos:Concept,KR,colt:periodeformeleeenheid,,Krijt,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
+ct:JU,skos:Concept,JU,colt:periodeformeleeenheid,,Jura,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
+ct:TR,skos:Concept,TR,colt:periodeformeleeenheid,,Trias,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
+ct:PE,skos:Concept,PE,colt:periodeformeleeenheid,,Perm,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
+ct:CB,skos:Concept,CB,colt:periodeformeleeenheid,,Carboon,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
+ct:DE,skos:Concept,DE,colt:periodeformeleeenheid,,Devoon,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
+ct:SI,skos:Concept,SI,colt:periodeformeleeenheid,,Siluur,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
+ct:OR,skos:Concept,OR,colt:periodeformeleeenheid,,Ordovicium,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
+ct:CM,skos:Concept,CM,colt:periodeformeleeenheid,,Cambrium,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
+ct:PC,skos:Concept,PC,colt:periodeformeleeenheid,,Precambrium,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid
+ct:ON,skos:Concept,ON,colt:periodeformeleeenheid,,onbekend,,,,,,,,,,,,,cs:periodeformeleeenheid,,,,,,,cs:periodeformeleeenheid

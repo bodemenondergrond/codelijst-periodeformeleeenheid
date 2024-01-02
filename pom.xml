@@ -8,17 +8,17 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>be.vlaanderen.bodemenondergrond.data.id.graph</groupId> <!-- e.g. be.vlaanderen.bodemenondergrond.data.id.graph -->
-  <artifactId>codelijst-periodeformeleeenheden</artifactId> <!-- e.g. codelijst-testrepo -->
-  <version>0.1.1-SNAPSHOT</version> <!-- 0.1.0-SNAPSHOT -->
+  <artifactId>codelijst-periodeformeleeenheid</artifactId> <!-- e.g. codelijst-testrepo -->
+  <version>0.1.0-SNAPSHOT</version> <!-- 0.1.0-SNAPSHOT -->
   <packaging>jar</packaging>
 
-  <name>codelijst-periodeformeleeenheden</name> <!-- e.g. codelijst-testrepo -->
+  <name>codelijst-periodeformeleeenheid</name> <!-- e.g. codelijst-testrepo -->
 
 
   <scm>
-        <connection>scm:git:https://github.com/bodemenondergrond/codelijst-periodeformeleeenheden.git</connection>
-        <developerConnection>scm:git:https://github.com/bodemenondergrond/codelijst-periodeformeleeenheden.git</developerConnection>
-        <url>https://github.com/bodemenondergrond/codelijst-periodeformeleeenheden.git</url>
+        <connection>scm:git:https://github.com/bodemenondergrond/codelijst-periodeformeleeenheid.git</connection>
+        <developerConnection>scm:git:https://github.com/bodemenondergrond/codelijst-periodeformeleeenheid.git</developerConnection>
+        <url>https://github.com/bodemenondergrond/codelijst-periodeformeleeenheid.git</url>
     <tag>HEAD</tag>
   </scm>
   <build>

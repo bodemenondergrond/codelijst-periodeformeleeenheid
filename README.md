@@ -1,8 +1,8 @@
-# codelijst-periodeformeleeenheden
+# codelijst-periodeformeleeenheid
 
 ## Samenvatting
 
-De codelijst 'periodeformeleeenheden' bevat eenduidige benamingen van ...
+De codelijst 'periodeformeleeenheid' bevat eenduidige benamingen van ...
 
 
 ## Projectinhoud

@@ -1,0 +1,104 @@
+@prefix colt: <https://data.bodemenondergrond.vlaanderen.be/id/collection/periodeformeleeenheid/> .
+@prefix cs:   <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/> .
+@prefix ct:   <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/> .
+@prefix dc:   <http://purl.org/dc/elements/1.1/> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+ct:DE   rdf:type           skos:Concept;
+        dc:identifier      "DE";
+        skos:inScheme      cs:periodeformeleeenheid;
+        skos:prefLabel     "Devoon"@nl;
+        skos:topConceptOf  cs:periodeformeleeenheid .
+
+ct:PC   rdf:type           skos:Concept;
+        dc:identifier      "PC";
+        skos:inScheme      cs:periodeformeleeenheid;
+        skos:prefLabel     "Precambrium"@nl;
+        skos:topConceptOf  cs:periodeformeleeenheid .
+
+ct:JU   rdf:type           skos:Concept;
+        dc:identifier      "JU";
+        skos:inScheme      cs:periodeformeleeenheid;
+        skos:prefLabel     "Jura"@nl;
+        skos:topConceptOf  cs:periodeformeleeenheid .
+
+ct:ON   rdf:type           skos:Concept;
+        dc:identifier      "ON";
+        skos:inScheme      cs:periodeformeleeenheid;
+        skos:prefLabel     "onbekend"@nl;
+        skos:topConceptOf  cs:periodeformeleeenheid .
+
+ct:QU   rdf:type           skos:Concept;
+        dc:identifier      "QU";
+        skos:inScheme      cs:periodeformeleeenheid;
+        skos:prefLabel     "Quartair"@nl;
+        skos:topConceptOf  cs:periodeformeleeenheid .
+
+ct:PE   rdf:type           skos:Concept;
+        dc:identifier      "PE";
+        skos:inScheme      cs:periodeformeleeenheid;
+        skos:prefLabel     "Perm"@nl;
+        skos:topConceptOf  cs:periodeformeleeenheid .
+
+ct:CM   rdf:type           skos:Concept;
+        dc:identifier      "CM";
+        skos:inScheme      cs:periodeformeleeenheid;
+        skos:prefLabel     "Cambrium"@nl;
+        skos:topConceptOf  cs:periodeformeleeenheid .
+
+ct:NE   rdf:type           skos:Concept;
+        dc:identifier      "NE";
+        skos:inScheme      cs:periodeformeleeenheid;
+        skos:prefLabel     "Neogeen"@nl;
+        skos:topConceptOf  cs:periodeformeleeenheid .
+
+ct:OR   rdf:type           skos:Concept;
+        dc:identifier      "OR";
+        skos:inScheme      cs:periodeformeleeenheid;
+        skos:prefLabel     "Ordovicium"@nl;
+        skos:topConceptOf  cs:periodeformeleeenheid .
+
+ct:TR   rdf:type           skos:Concept;
+        dc:identifier      "TR";
+        skos:inScheme      cs:periodeformeleeenheid;
+        skos:prefLabel     "Trias"@nl;
+        skos:topConceptOf  cs:periodeformeleeenheid .
+
+ct:KR   rdf:type           skos:Concept;
+        dc:identifier      "KR";
+        skos:inScheme      cs:periodeformeleeenheid;
+        skos:prefLabel     "Krijt"@nl;
+        skos:topConceptOf  cs:periodeformeleeenheid .
+
+ct:CB   rdf:type           skos:Concept;
+        dc:identifier      "CB";
+        skos:inScheme      cs:periodeformeleeenheid;
+        skos:prefLabel     "Carboon"@nl;
+        skos:topConceptOf  cs:periodeformeleeenheid .
+
+ct:PA   rdf:type           skos:Concept;
+        dc:identifier      "PA";
+        skos:inScheme      cs:periodeformeleeenheid;
+        skos:prefLabel     "Paleogeen"@nl;
+        skos:topConceptOf  cs:periodeformeleeenheid .
+
+ct:SI   rdf:type           skos:Concept;
+        dc:identifier      "SI";
+        skos:inScheme      cs:periodeformeleeenheid;
+        skos:prefLabel     "Siluur"@nl;
+        skos:topConceptOf  cs:periodeformeleeenheid .
+
+cs:periodeformeleeenheid
+        skos:hasTopConcept  ct:NE , ct:PA , ct:KR , ct:OR , ct:PC , ct:PE , ct:JU , ct:ON , ct:QU , ct:TR , ct:CM , ct:SI , ct:DE , ct:CB .
+
+colt:periodeformeleeenheid
+        rdf:type              skos:Collection;
+        dc:identifier         "periodeformeleeenheid";
+        skos:inScheme         <file:///tmp/RtmpGBCzxP/cs>;
+        skos:mappingRelation  <file:///tmp/RtmpGBCzxP/periodeformeleeenheid>;
+        skos:member           ct:CB , ct:DE , ct:NE , ct:PC , ct:SI , ct:JU , ct:QU , ct:PA , ct:ON , ct:CM , ct:KR , ct:OR , ct:PE , ct:TR;
+        skos:prefLabel        "Collectie van periodeformeleeenheid."@nl .
