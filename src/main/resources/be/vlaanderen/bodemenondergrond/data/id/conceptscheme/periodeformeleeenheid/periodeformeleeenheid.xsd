@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:simpleType name="">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:be.vlaanderen.bodemenondergrond.data.id.graph:codelijst-periodeformeleeenheid">
+  <xs:simpleType name="be.vlaanderen.bodemenondergrond.data.id.conceptscheme.periodeformeleeenheid">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/ON"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/TR"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/CB"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/DE"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/KR"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/OR"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/QU"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/PA"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/JU"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/CM"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/NE"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/SI"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/PC"/>
-      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/PE"/>
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/cambrium" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/carboon" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/devoon" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/jura" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/krijt" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/neogeen" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/onbekend" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/ordovicium" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/paleogeen" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/perm" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/precambrium" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/quartair" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/siluur" />
+      <xs:enumeration value="https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/trias" />
     </xs:restriction>
   </xs:simpleType>
 </xs:schema>

@@ -1,104 +1,149 @@
-@prefix colt: <https://data.bodemenondergrond.vlaanderen.be/id/collection/periodeformeleeenheid/> .
-@prefix cs:   <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/> .
-@prefix ct:   <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/> .
-@prefix dc:   <http://purl.org/dc/elements/1.1/> .
-@prefix dct:  <http://purl.org/dc/terms/> .
-@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#> .
-@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix concept: <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/>.
+@prefix collectie: <https://data.bodemenondergrond.vlaanderen.be/id/collection/periodeformeleeenheid/>.
+@prefix access_right: <http://publications.europa.eu/resource/authority/access-right/>.
+@prefix adms: <http://www.w3.org/ns/adms#>.
+@prefix assettype: <http://purl.org/adms/assettype/>.
+@prefix conceptscheme: <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/>.
+@prefix country: <http://publications.europa.eu/resource/authority/country/>.
+@prefix datasets: <https://datasets.omgeving.vlaanderen.be/>.
+@prefix datatheme_be: <http://vocab.belgif.be/auth/datatheme/>.
+@prefix datatheme_eu: <http://publications.europa.eu/resource/authority/data-theme/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix eurovoc: <http://eurovoc.europa.eu/>.
+@prefix file_type: <http://publications.europa.eu/resource/authority/file-type/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix formats: <http://www.w3.org/ns/formats/>.
+@prefix frequency: <http://publications.europa.eu/resource/authority/frequency/>.
+@prefix gemet: <http://www.eionet.europa.eu/gemet/concept/>.
+@prefix licence: <http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/>.
+@prefix metadata: <https://data.omgeving.vlaanderen.be/ns/metadata#>.
+@prefix omg_catalog: <https://data.bodemenondergrond.vlaanderen.be/id/catalog/>.
+@prefix omg_catalog_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/catalog/>.
+@prefix omg_collection: <https://data.bodemenondergrond.vlaanderen.be/id/collection/>.
+@prefix omg_dataservice: <https://data.bodemenondergrond.vlaanderen.be/id/dataservice/>.
+@prefix omg_dataset_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/dataset/>.
+@prefix omg_dataset: <https://data.bodemenondergrond.vlaanderen.be/id/dataset/>.
+@prefix omg_distribution_doc: <https://data.bodemenondergrond.vlaanderen.be/doc/distribution/>.
+@prefix omg_distribution: <https://data.bodemenondergrond.vlaanderen.be/id/distribution/>.
+@prefix omg_graphcollection: <https://data.bodemenondergrond.vlaanderen.be/id/graphcollection/>.
+@prefix omg_graph: <https://data.bodemenondergrond.vlaanderen.be/id/graph/>.
+@prefix omg_id: <https://data.bodemenondergrond.vlaanderen.be/id/>.
+@prefix omg_named_graph: <https://data.bodemenondergrond.vlaanderen.be/id/namedgraph/>.
+@prefix omg_ontology: <https://data.bodemenondergrond.vlaanderen.be/id/ontology/>.
+@prefix omg_package: <https://data.bodemenondergrond.vlaanderen.be/id/package/>.
+@prefix omg_periodoftime: <https://data.bodemenondergrond.vlaanderen.be/id/periodoftime/>.
+@prefix omg_service: <https://data.bodemenondergrond.vlaanderen.be/id/service/>.
+@prefix omg_vcard: <https://data.bodemenondergrond.vlaanderen.be/id/vcard/>.
+@prefix ovo: <http://data.vlaanderen.be/id/organisatie/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix repo: <https://repo.omgeving.vlaanderen.be/artifactory/release/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix spdx: <http://spdx.org/rdf/terms#>.
+@prefix ssd: <http://www.w3.org/ns/sparql-service-description#>.
+@prefix ts: <http://www.w3.org/ns/formats/>.
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix wise: <http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/>.
+@prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-ct:DE   rdf:type           skos:Concept;
-        dc:identifier      "DE";
-        skos:inScheme      cs:periodeformeleeenheid;
-        skos:prefLabel     "Devoon"@nl;
-        skos:topConceptOf  cs:periodeformeleeenheid .
-
-ct:PC   rdf:type           skos:Concept;
-        dc:identifier      "PC";
-        skos:inScheme      cs:periodeformeleeenheid;
-        skos:prefLabel     "Precambrium"@nl;
-        skos:topConceptOf  cs:periodeformeleeenheid .
-
-ct:JU   rdf:type           skos:Concept;
-        dc:identifier      "JU";
-        skos:inScheme      cs:periodeformeleeenheid;
-        skos:prefLabel     "Jura"@nl;
-        skos:topConceptOf  cs:periodeformeleeenheid .
-
-ct:ON   rdf:type           skos:Concept;
-        dc:identifier      "ON";
-        skos:inScheme      cs:periodeformeleeenheid;
-        skos:prefLabel     "onbekend"@nl;
-        skos:topConceptOf  cs:periodeformeleeenheid .
-
-ct:QU   rdf:type           skos:Concept;
-        dc:identifier      "QU";
-        skos:inScheme      cs:periodeformeleeenheid;
-        skos:prefLabel     "Quartair"@nl;
-        skos:topConceptOf  cs:periodeformeleeenheid .
-
-ct:PE   rdf:type           skos:Concept;
-        dc:identifier      "PE";
-        skos:inScheme      cs:periodeformeleeenheid;
-        skos:prefLabel     "Perm"@nl;
-        skos:topConceptOf  cs:periodeformeleeenheid .
-
-ct:CM   rdf:type           skos:Concept;
-        dc:identifier      "CM";
-        skos:inScheme      cs:periodeformeleeenheid;
-        skos:prefLabel     "Cambrium"@nl;
-        skos:topConceptOf  cs:periodeformeleeenheid .
-
-ct:NE   rdf:type           skos:Concept;
-        dc:identifier      "NE";
-        skos:inScheme      cs:periodeformeleeenheid;
-        skos:prefLabel     "Neogeen"@nl;
-        skos:topConceptOf  cs:periodeformeleeenheid .
-
-ct:OR   rdf:type           skos:Concept;
-        dc:identifier      "OR";
-        skos:inScheme      cs:periodeformeleeenheid;
-        skos:prefLabel     "Ordovicium"@nl;
-        skos:topConceptOf  cs:periodeformeleeenheid .
-
-ct:TR   rdf:type           skos:Concept;
-        dc:identifier      "TR";
-        skos:inScheme      cs:periodeformeleeenheid;
-        skos:prefLabel     "Trias"@nl;
-        skos:topConceptOf  cs:periodeformeleeenheid .
-
-ct:KR   rdf:type           skos:Concept;
-        dc:identifier      "KR";
-        skos:inScheme      cs:periodeformeleeenheid;
-        skos:prefLabel     "Krijt"@nl;
-        skos:topConceptOf  cs:periodeformeleeenheid .
-
-ct:CB   rdf:type           skos:Concept;
-        dc:identifier      "CB";
-        skos:inScheme      cs:periodeformeleeenheid;
-        skos:prefLabel     "Carboon"@nl;
-        skos:topConceptOf  cs:periodeformeleeenheid .
-
-ct:PA   rdf:type           skos:Concept;
-        dc:identifier      "PA";
-        skos:inScheme      cs:periodeformeleeenheid;
-        skos:prefLabel     "Paleogeen"@nl;
-        skos:topConceptOf  cs:periodeformeleeenheid .
-
-ct:SI   rdf:type           skos:Concept;
-        dc:identifier      "SI";
-        skos:inScheme      cs:periodeformeleeenheid;
-        skos:prefLabel     "Siluur"@nl;
-        skos:topConceptOf  cs:periodeformeleeenheid .
-
-cs:periodeformeleeenheid
-        skos:hasTopConcept  ct:NE , ct:PA , ct:KR , ct:OR , ct:PC , ct:PE , ct:JU , ct:ON , ct:QU , ct:TR , ct:CM , ct:SI , ct:DE , ct:CB .
-
-colt:periodeformeleeenheid
-        rdf:type              skos:Collection;
-        dc:identifier         "periodeformeleeenheid";
-        skos:inScheme         <file:///tmp/RtmpGBCzxP/cs>;
-        skos:mappingRelation  <file:///tmp/RtmpGBCzxP/periodeformeleeenheid>;
-        skos:member           ct:CB , ct:DE , ct:NE , ct:PC , ct:SI , ct:JU , ct:QU , ct:PA , ct:ON , ct:CM , ct:KR , ct:OR , ct:PE , ct:TR;
-        skos:prefLabel        "Collectie van periodeformeleeenheid."@nl .
+collectie:periodeformeleeenheid dc:identifier "be.vlaanderen.bodemenondergrond.data.id.collection.periodeformeleeenheid.periodeformeleeenheid";
+    a skos:Collection;
+    skos:inScheme conceptscheme:periodeformeleeenheid;
+    skos:member concept:cambrium, concept:carboon, concept:devoon, concept:jura, concept:krijt, concept:neogeen, concept:onbekend, concept:ordovicium, concept:paleogeen, concept:perm, concept:precambrium, concept:quartair, concept:siluur, concept:trias;
+    skos:prefLabel "Collectie van periodeformeleeenheid."@nl.
+concept:cambrium dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.cambrium";
+    a skos:Concept;
+    skos:inScheme conceptscheme:periodeformeleeenheid;
+    skos:notation "CM";
+    skos:prefLabel "Cambrium"@nl;
+    skos:topConceptOf conceptscheme:periodeformeleeenheid.
+concept:carboon dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.carboon";
+    a skos:Concept;
+    skos:inScheme conceptscheme:periodeformeleeenheid;
+    skos:notation "CB";
+    skos:prefLabel "Carboon"@nl;
+    skos:topConceptOf conceptscheme:periodeformeleeenheid.
+concept:devoon dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.devoon";
+    a skos:Concept;
+    skos:inScheme conceptscheme:periodeformeleeenheid;
+    skos:notation "DE";
+    skos:prefLabel "Devoon"@nl;
+    skos:topConceptOf conceptscheme:periodeformeleeenheid.
+concept:jura dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.jura";
+    a skos:Concept;
+    skos:inScheme conceptscheme:periodeformeleeenheid;
+    skos:notation "JU";
+    skos:prefLabel "Jura"@nl;
+    skos:topConceptOf conceptscheme:periodeformeleeenheid.
+concept:krijt dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.krijt";
+    a skos:Concept;
+    skos:inScheme conceptscheme:periodeformeleeenheid;
+    skos:notation "KR";
+    skos:prefLabel "Krijt"@nl;
+    skos:topConceptOf conceptscheme:periodeformeleeenheid.
+concept:neogeen dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.neogeen";
+    a skos:Concept;
+    skos:inScheme conceptscheme:periodeformeleeenheid;
+    skos:notation "NE";
+    skos:prefLabel "Neogeen"@nl;
+    skos:topConceptOf conceptscheme:periodeformeleeenheid.
+concept:onbekend dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.onbekend";
+    a skos:Concept;
+    skos:inScheme conceptscheme:periodeformeleeenheid;
+    skos:notation "ON";
+    skos:prefLabel "onbekend"@nl;
+    skos:topConceptOf conceptscheme:periodeformeleeenheid.
+concept:ordovicium dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.ordovicium";
+    a skos:Concept;
+    skos:inScheme conceptscheme:periodeformeleeenheid;
+    skos:notation "OR";
+    skos:prefLabel "Ordovicium"@nl;
+    skos:topConceptOf conceptscheme:periodeformeleeenheid.
+concept:paleogeen dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.paleogeen";
+    a skos:Concept;
+    skos:inScheme conceptscheme:periodeformeleeenheid;
+    skos:notation "PA";
+    skos:prefLabel "Paleogeen"@nl;
+    skos:topConceptOf conceptscheme:periodeformeleeenheid.
+concept:perm dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.perm";
+    a skos:Concept;
+    skos:inScheme conceptscheme:periodeformeleeenheid;
+    skos:notation "PE";
+    skos:prefLabel "Perm"@nl;
+    skos:topConceptOf conceptscheme:periodeformeleeenheid.
+concept:precambrium dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.precambrium";
+    a skos:Concept;
+    skos:inScheme conceptscheme:periodeformeleeenheid;
+    skos:notation "PC";
+    skos:prefLabel "Precambrium"@nl;
+    skos:topConceptOf conceptscheme:periodeformeleeenheid.
+concept:quartair dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.quartair";
+    a skos:Concept;
+    skos:inScheme conceptscheme:periodeformeleeenheid;
+    skos:notation "QU";
+    skos:prefLabel "Quartair"@nl;
+    skos:topConceptOf conceptscheme:periodeformeleeenheid.
+concept:siluur dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.siluur";
+    a skos:Concept;
+    skos:inScheme conceptscheme:periodeformeleeenheid;
+    skos:notation "SI";
+    skos:prefLabel "Siluur"@nl;
+    skos:topConceptOf conceptscheme:periodeformeleeenheid.
+concept:trias dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.trias";
+    a skos:Concept;
+    skos:inScheme conceptscheme:periodeformeleeenheid;
+    skos:notation "TR";
+    skos:prefLabel "Trias"@nl;
+    skos:topConceptOf conceptscheme:periodeformeleeenheid.
+conceptscheme:periodeformeleeenheid dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.periodeformeleeenheid";
+    a skos:ConceptScheme;
+    skos:hasTopConcept concept:cambrium, concept:carboon, concept:devoon, concept:jura, concept:krijt, concept:neogeen, concept:onbekend, concept:ordovicium, concept:paleogeen, concept:perm, concept:precambrium, concept:quartair, concept:siluur, concept:trias;
+    skos:prefLabel "Geologische periodes"@nl.

@@ -1,331 +1,569 @@
 {
-    "@graph": [
-        {
-            "@id": "ct:DE",
-            "skos:topConceptOf": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Devoon"
-            },
-            "skos:inScheme": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "dc:identifier": "DE",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "cs:periodeformeleeenheid",
-            "skos:hasTopConcept": [
-                {
-                    "@id": "ct:NE"
-                },
-                {
-                    "@id": "ct:PA"
-                },
-                {
-                    "@id": "ct:OR"
-                },
-                {
-                    "@id": "ct:KR"
-                },
-                {
-                    "@id": "ct:PC"
-                },
-                {
-                    "@id": "ct:PE"
-                },
-                {
-                    "@id": "ct:JU"
-                },
-                {
-                    "@id": "ct:ON"
-                },
-                {
-                    "@id": "ct:QU"
-                },
-                {
-                    "@id": "ct:TR"
-                },
-                {
-                    "@id": "ct:CM"
-                },
-                {
-                    "@id": "ct:SI"
-                },
-                {
-                    "@id": "ct:DE"
-                },
-                {
-                    "@id": "ct:CB"
-                }
-            ]
-        },
-        {
-            "@id": "ct:PC",
-            "skos:topConceptOf": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Precambrium"
-            },
-            "skos:inScheme": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "dc:identifier": "PC",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:JU",
-            "skos:topConceptOf": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Jura"
-            },
-            "skos:inScheme": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "dc:identifier": "JU",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:QU",
-            "skos:topConceptOf": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Quartair"
-            },
-            "skos:inScheme": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "dc:identifier": "QU",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:ON",
-            "skos:topConceptOf": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "onbekend"
-            },
-            "skos:inScheme": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "dc:identifier": "ON",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:PE",
-            "skos:topConceptOf": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Perm"
-            },
-            "skos:inScheme": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "dc:identifier": "PE",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:CM",
-            "skos:topConceptOf": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Cambrium"
-            },
-            "skos:inScheme": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "dc:identifier": "CM",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:NE",
-            "skos:topConceptOf": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Neogeen"
-            },
-            "skos:inScheme": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "dc:identifier": "NE",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:OR",
-            "skos:topConceptOf": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Ordovicium"
-            },
-            "skos:inScheme": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "dc:identifier": "OR",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:TR",
-            "skos:topConceptOf": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Trias"
-            },
-            "skos:inScheme": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "dc:identifier": "TR",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:KR",
-            "skos:topConceptOf": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Krijt"
-            },
-            "skos:inScheme": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "dc:identifier": "KR",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:CB",
-            "skos:topConceptOf": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Carboon"
-            },
-            "skos:inScheme": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "dc:identifier": "CB",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:PA",
-            "skos:topConceptOf": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Paleogeen"
-            },
-            "skos:inScheme": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "dc:identifier": "PA",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "ct:SI",
-            "skos:topConceptOf": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Siluur"
-            },
-            "skos:inScheme": {
-                "@id": "cs:periodeformeleeenheid"
-            },
-            "dc:identifier": "SI",
-            "@type": "skos:Concept"
-        },
-        {
-            "@id": "colt:periodeformeleeenheid",
-            "skos:member": [
-                {
-                    "@id": "ct:CB"
-                },
-                {
-                    "@id": "ct:DE"
-                },
-                {
-                    "@id": "ct:NE"
-                },
-                {
-                    "@id": "ct:PC"
-                },
-                {
-                    "@id": "ct:SI"
-                },
-                {
-                    "@id": "ct:JU"
-                },
-                {
-                    "@id": "ct:QU"
-                },
-                {
-                    "@id": "ct:PA"
-                },
-                {
-                    "@id": "ct:ON"
-                },
-                {
-                    "@id": "ct:CM"
-                },
-                {
-                    "@id": "ct:KR"
-                },
-                {
-                    "@id": "ct:OR"
-                },
-                {
-                    "@id": "ct:PE"
-                },
-                {
-                    "@id": "ct:TR"
-                }
-            ],
-            "dc:identifier": "periodeformeleeenheid",
-            "@type": "skos:Collection",
-            "skos:mappingRelation": {
-                "@id": "file:///tmp/RtmpGBCzxP/periodeformeleeenheid"
-            },
-            "skos:inScheme": {
-                "@id": "file:///tmp/RtmpGBCzxP/cs"
-            },
-            "skos:prefLabel": {
-                "@language": "nl",
-                "@value": "Collectie van periodeformeleeenheid."
-            }
-        }
-    ],
     "@context": {
-        "cs": "https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/",
-        "ct": "https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/",
-        "dct": "http://purl.org/dc/terms/",
-        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-        "xsd": "http://www.w3.org/2001/XMLSchema#",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "colt": "https://data.bodemenondergrond.vlaanderen.be/id/collection/periodeformeleeenheid/",
+        "sparql-service-description-graph": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#graph",
+            "@type": "@id"
+        },
+        "defaultGraph": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#defaultGraph",
+            "@type": "@id"
+        },
+        "collections": {
+            "@type": "@id",
+            "@reverse": "member"
+        },
+        "id": "@id",
+        "type": {
+            "@id": "@type",
+            "@type": "@id"
+        },
+        "source": {
+            "@id": "http://purl.org/dc/terms/source",
+            "@type": "@id"
+        },
+        "sparql-service-description-name": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#name",
+            "@type": "@id"
+        },
+        "identifier": {
+            "@id": "http://purl.org/dc/terms/identifier",
+            "@type": "@id"
+        },
+        "hasVersion": {
+            "@id": "http://purl.org/dc/terms/hasVersion",
+            "@type": "@id"
+        },
+        "isVersionOf": {
+            "@id": "http://purl.org/dc/terms/isVersionOf",
+            "@type": "@id"
+        },
+        "label": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#label",
+            "@language": "nl"
+        },
+        "distribution": {
+            "@id": "http://www.w3.org/ns/dcat#distribution",
+            "@type": "@id"
+        },
+        "alternative": {
+            "@id": "http://purl.org/dc/terms/alternative",
+            "@language": "nl"
+        },
+        "description": {
+            "@id": "http://purl.org/dc/terms/description",
+            "@language": "nl"
+        },
+        "spatial": {
+            "@id": "http://purl.org/dc/terms/spatial",
+            "@type": "@id"
+        },
+        "page": {
+            "@id": "http://xmlns.com/foaf/0.1/page",
+            "@type": "@id"
+        },
+        "theme": {
+            "@id": "http://www.w3.org/ns/dcat#theme",
+            "@type": "@id"
+        },
+        "title": {
+            "@id": "http://purl.org/dc/terms/title",
+            "@language": "nl"
+        },
+        "landingPage": {
+            "@id": "http://www.w3.org/ns/dcat#landingPage",
+            "@type": "@id"
+        },
+        "rightsHolder": {
+            "@id": "http://purl.org/dc/terms/rightsHolder",
+            "@type": "@id"
+        },
+        "language": "http://publications.europa.eu/resource/authority/language/",
+        "accrualPeriodicity": {
+            "@id": "http://purl.org/dc/terms/accrualPeriodicity",
+            "@type": "@id"
+        },
+        "publisher": {
+            "@id": "http://purl.org/dc/terms/publisher",
+            "@type": "@id"
+        },
+        "dct.language": {
+            "@id": "http://purl.org/dc/terms/language",
+            "@type": "@id"
+        },
+        "contactPoint": {
+            "@id": "http://www.w3.org/ns/dcat#contactPoint",
+            "@type": "@id"
+        },
+        "temporal": {
+            "@id": "http://purl.org/dc/terms/temporal",
+            "@type": "@id"
+        },
+        "issued": {
+            "@id": "http://purl.org/dc/terms/issued",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "accessRights": {
+            "@id": "http://purl.org/dc/terms/accessRights",
+            "@type": "@id"
+        },
+        "license": {
+            "@id": "http://purl.org/dc/terms/license",
+            "@type": "@id"
+        },
+        "accessURL": {
+            "@id": "http://www.w3.org/ns/dcat#accessURL",
+            "@type": "@id"
+        },
+        "compressFormat": {
+            "@id": "http://www.w3.org/ns/dcat#compressFormat",
+            "@type": "@id"
+        },
+        "downloadURL": {
+            "@id": "http://www.w3.org/ns/dcat#downloadURL",
+            "@type": "@id"
+        },
+        "mediaType": {
+            "@id": "http://www.w3.org/ns/dcat#mediaType",
+            "@type": "@id"
+        },
+        "format": {
+            "@id": "http://purl.org/dc/terms/format",
+            "@type": "@id"
+        },
+        "versionInfo": {
+            "@id": "http://spdx.org/rdf/terms#versionInfo"
+        },
+        "packageName": {
+            "@id": "http://spdx.org/rdf/terms#packageName"
+        },
+        "packageFileName": {
+            "@id": "http://spdx.org/rdf/terms#packageFileName"
+        },
+        "downloadLocation": {
+            "@id": "http://spdx.org/rdf/terms#downloadLocation",
+            "@type": "@id"
+        },
+        "relationshipType_packageOf": {
+            "@id": "http://spdx.org/rdf/terms#relationshipType_packageOf",
+            "@type": "@id"
+        },
+        "availableGraphs": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#availableGraphs",
+            "@type": "@id"
+        },
+        "resultFormat": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#resultFormat",
+            "@type": "@id"
+        },
+        "feature": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#feature",
+            "@type": "@id"
+        },
+        "supportedLanguage": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
+            "@type": "@id"
+        },
+        "url": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#url",
+            "@type": "@id"
+        },
+        "comment": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#comment",
+            "@language": "nl"
+        },
+        "defaultDataset": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#defaultDataset",
+            "@type": "@id"
+        },
+        "endpoint": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#endpoint",
+            "@type": "@id"
+        },
+        "namedGraph": {
+            "@id": "http://www.w3.org/ns/sparql-service-description#namedGraph",
+            "@type": "@id"
+        },
+        "homepage": {
+            "@id": "http://xmlns.com/foaf/0.1/homepage",
+            "@type": "@id"
+        },
+        "service": {
+            "@id": "http://www.w3.org/ns/dcat#service",
+            "@type": "@id"
+        },
+        "rootResource": {
+            "@id": "http://rdfs.org/ns/void#rootResource",
+            "@type": "@id"
+        },
+        "dataset": {
+            "@id": "http://www.w3.org/ns/dcat#dataset",
+            "@type": "@id"
+        },
+        "servesDataset": {
+            "@id": "http://www.w3.org/ns/dcat#servesDataset",
+            "@type": "@id"
+        },
+        "endpointDescription": {
+            "@id": "http://www.w3.org/ns/dcat#endpointDescription",
+            "@type": "@id"
+        },
+        "endpointURL": {
+            "@id": "http://www.w3.org/ns/dcat#endpointURL",
+            "@type": "@id"
+        },
+        "conformsTo": {
+            "@id": "http://purl.org/dc/terms/conformsTo",
+            "@type": "@id"
+        },
+        "dc.identifier": {
+            "@id": "http://purl.org/dc/elements/1.1/identifier"
+        },
+        "dc.language": {
+            "@id": "http://purl.org/dc/elements/1.1/language",
+            "@language": "nl"
+        },
+        "dc.source": {
+            "@id": "http://purl.org/dc/elements/1.1/source"
+        },
+        "version": {
+            "@id": "http://www.w3.org/2002/07/owl#versionInfo"
+        },
+        "name": {
+            "@id": "http://spdx.org/rdf/terms#name"
+        },
+        "seeAlso": {
+            "@id": "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+            "@type": "@id"
+        },
+        "inScheme": {
+            "@id": "http://www.w3.org/2004/02/skos/core#inScheme",
+            "@type": "@id"
+        },
+        "topConceptOf": {
+            "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+            "@type": "@id"
+        },
+        "hasTopConcept": {
+            "@id": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+            "@type": "@id"
+        },
+        "uri": {
+            "@id": "@id",
+            "@type": "@id"
+        },
+        "prefLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+            "@language": "nl"
+        },
+        "notation": {
+            "@id": "http://www.w3.org/2004/02/skos/core#notation"
+        },
+        "altLabel": {
+            "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+            "@language": "nl"
+        },
+        "note": {
+            "@id": "http://www.w3.org/2004/02/skos/core#note",
+            "@language": "nl"
+        },
+        "definition": {
+            "@id": "http://www.w3.org/2004/02/skos/core#definition",
+            "@language": "nl"
+        },
+        "member": {
+            "@id": "http://www.w3.org/2004/02/skos/core#member",
+            "@type": "@id"
+        },
+        "casNumber": {
+            "@id": "http://dbpedia.org/ontology/casNumber"
+        },
+        "references": {
+            "@id": "http://purl.org/dc/terms/references",
+            "@type": "@id"
+        },
+        "isReferencedBy": {
+            "@id": "http://purl.org/dc/terms/isReferencedBy",
+            "@type": "@id"
+        },
+        "relation": {
+            "@id": "http://purl.org/dc/terms/relation",
+            "@type": "@id"
+        },
+        "graph": {
+            "@id": "@graph"
+        },
+        "broaderTransitive": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+            "@type": "@id"
+        },
+        "broadMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broadMatch",
+            "@type": "@id"
+        },
+        "closeMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#closeMatch",
+            "@type": "@id"
+        },
+        "exactMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#exactMatch",
+            "@type": "@id"
+        },
+        "mappingRelation": {
+            "@id": "http://www.w3.org/2004/02/skos/core#mappingRelation",
+            "@type": "@id"
+        },
+        "broader": {
+            "@id": "http://www.w3.org/2004/02/skos/core#broader",
+            "@type": "@id"
+        },
+        "narrower": {
+            "@id": "http://www.w3.org/2004/02/skos/core#narrower",
+            "@type": "@id"
+        },
+        "narrowerTransitive": {
+            "@id": "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
+            "@type": "@id"
+        },
+        "narrowMatch": {
+            "@id": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+            "@type": "@id"
+        },
+        "semanticRelation": {
+            "@id": "http://www.w3.org/2004/02/skos/core#semanticRelation",
+            "@type": "@id"
+        },
+        "belongsTo": {
+            "@id": "http://rdf-vocabulary.ddialliance.org/xkos#belongsTo",
+            "@type": "@id"
+        },
+        "concept": "https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/",
+        "collectie": "https://data.bodemenondergrond.vlaanderen.be/id/collection/periodeformeleeenheid/",
+        "access_right": "http://publications.europa.eu/resource/authority/access-right/",
+        "adms": "http://www.w3.org/ns/adms#",
+        "assettype": "http://purl.org/adms/assettype/",
+        "conceptscheme": "https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/",
+        "country": "http://publications.europa.eu/resource/authority/country/",
+        "datasets": "https://datasets.omgeving.vlaanderen.be/",
+        "datatheme_be": "http://vocab.belgif.be/auth/datatheme/",
+        "datatheme_eu": "http://publications.europa.eu/resource/authority/data-theme/",
+        "dbo": "http://dbpedia.org/ontology/",
+        "dcat": "http://www.w3.org/ns/dcat#",
         "dc": "http://purl.org/dc/elements/1.1/",
-        "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#"
-    }
+        "dcterms": "http://purl.org/dc/terms/",
+        "dct": "http://purl.org/dc/terms/",
+        "eurovoc": "http://eurovoc.europa.eu/",
+        "file_type": "http://publications.europa.eu/resource/authority/file-type/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "formats": "http://www.w3.org/ns/formats/",
+        "frequency": "http://publications.europa.eu/resource/authority/frequency/",
+        "gemet": "http://www.eionet.europa.eu/gemet/concept/",
+        "licence": "http://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/",
+        "metadata": "https://data.omgeving.vlaanderen.be/ns/metadata#",
+        "omg_catalog": "https://data.bodemenondergrond.vlaanderen.be/id/catalog/",
+        "omg_catalog_doc": "https://data.bodemenondergrond.vlaanderen.be/doc/catalog/",
+        "omg_collection": "https://data.bodemenondergrond.vlaanderen.be/id/collection/",
+        "omg_dataservice": "https://data.bodemenondergrond.vlaanderen.be/id/dataservice/",
+        "omg_dataset_doc": "https://data.bodemenondergrond.vlaanderen.be/doc/dataset/",
+        "omg_dataset": "https://data.bodemenondergrond.vlaanderen.be/id/dataset/",
+        "omg_distribution_doc": "https://data.bodemenondergrond.vlaanderen.be/doc/distribution/",
+        "omg_distribution": "https://data.bodemenondergrond.vlaanderen.be/id/distribution/",
+        "omg_graphcollection": "https://data.bodemenondergrond.vlaanderen.be/id/graphcollection/",
+        "omg_graph": "https://data.bodemenondergrond.vlaanderen.be/id/graph/",
+        "omg_id": "https://data.bodemenondergrond.vlaanderen.be/id/",
+        "omg_named_graph": "https://data.bodemenondergrond.vlaanderen.be/id/namedgraph/",
+        "omg_ontology": "https://data.bodemenondergrond.vlaanderen.be/id/ontology/",
+        "omg_package": "https://data.bodemenondergrond.vlaanderen.be/id/package/",
+        "omg_periodoftime": "https://data.bodemenondergrond.vlaanderen.be/id/periodoftime/",
+        "omg_service": "https://data.bodemenondergrond.vlaanderen.be/id/service/",
+        "omg_vcard": "https://data.bodemenondergrond.vlaanderen.be/id/vcard/",
+        "ovo": "http://data.vlaanderen.be/id/organisatie/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "repo": "https://repo.omgeving.vlaanderen.be/artifactory/release/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "sd": "http://www.w3.org/ns/sparql-service-description#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "spdx": "http://spdx.org/rdf/terms#",
+        "ssd": "http://www.w3.org/ns/sparql-service-description#",
+        "ts": "http://www.w3.org/ns/formats/",
+        "vcard": "http://www.w3.org/2006/vcard/ns#",
+        "void": "http://rdfs.org/ns/void#",
+        "wise": "http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/",
+        "xkos": "http://rdf-vocabulary.ddialliance.org/xkos#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "@base": "https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/"
+    },
+    "graph": [
+        {
+            "id": "collectie:periodeformeleeenheid",
+            "type": "skos:Collection",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.collection.periodeformeleeenheid.periodeformeleeenheid",
+            "inScheme": "conceptscheme:periodeformeleeenheid",
+            "member": [
+                "concept:cambrium",
+                "concept:carboon",
+                "concept:devoon",
+                "concept:jura",
+                "concept:krijt",
+                "concept:neogeen",
+                "concept:onbekend",
+                "concept:ordovicium",
+                "concept:paleogeen",
+                "concept:perm",
+                "concept:precambrium",
+                "concept:quartair",
+                "concept:siluur",
+                "concept:trias"
+            ],
+            "prefLabel": "Collectie van periodeformeleeenheid."
+        },
+        {
+            "id": "concept:cambrium",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.cambrium",
+            "inScheme": "conceptscheme:periodeformeleeenheid",
+            "notation": "CM",
+            "prefLabel": "Cambrium",
+            "topConceptOf": "conceptscheme:periodeformeleeenheid"
+        },
+        {
+            "id": "concept:carboon",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.carboon",
+            "inScheme": "conceptscheme:periodeformeleeenheid",
+            "notation": "CB",
+            "prefLabel": "Carboon",
+            "topConceptOf": "conceptscheme:periodeformeleeenheid"
+        },
+        {
+            "id": "concept:devoon",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.devoon",
+            "inScheme": "conceptscheme:periodeformeleeenheid",
+            "notation": "DE",
+            "prefLabel": "Devoon",
+            "topConceptOf": "conceptscheme:periodeformeleeenheid"
+        },
+        {
+            "id": "concept:jura",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.jura",
+            "inScheme": "conceptscheme:periodeformeleeenheid",
+            "notation": "JU",
+            "prefLabel": "Jura",
+            "topConceptOf": "conceptscheme:periodeformeleeenheid"
+        },
+        {
+            "id": "concept:krijt",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.krijt",
+            "inScheme": "conceptscheme:periodeformeleeenheid",
+            "notation": "KR",
+            "prefLabel": "Krijt",
+            "topConceptOf": "conceptscheme:periodeformeleeenheid"
+        },
+        {
+            "id": "concept:neogeen",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.neogeen",
+            "inScheme": "conceptscheme:periodeformeleeenheid",
+            "notation": "NE",
+            "prefLabel": "Neogeen",
+            "topConceptOf": "conceptscheme:periodeformeleeenheid"
+        },
+        {
+            "id": "concept:onbekend",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.onbekend",
+            "inScheme": "conceptscheme:periodeformeleeenheid",
+            "notation": "ON",
+            "prefLabel": "onbekend",
+            "topConceptOf": "conceptscheme:periodeformeleeenheid"
+        },
+        {
+            "id": "concept:ordovicium",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.ordovicium",
+            "inScheme": "conceptscheme:periodeformeleeenheid",
+            "notation": "OR",
+            "prefLabel": "Ordovicium",
+            "topConceptOf": "conceptscheme:periodeformeleeenheid"
+        },
+        {
+            "id": "concept:paleogeen",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.paleogeen",
+            "inScheme": "conceptscheme:periodeformeleeenheid",
+            "notation": "PA",
+            "prefLabel": "Paleogeen",
+            "topConceptOf": "conceptscheme:periodeformeleeenheid"
+        },
+        {
+            "id": "concept:perm",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.perm",
+            "inScheme": "conceptscheme:periodeformeleeenheid",
+            "notation": "PE",
+            "prefLabel": "Perm",
+            "topConceptOf": "conceptscheme:periodeformeleeenheid"
+        },
+        {
+            "id": "concept:precambrium",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.precambrium",
+            "inScheme": "conceptscheme:periodeformeleeenheid",
+            "notation": "PC",
+            "prefLabel": "Precambrium",
+            "topConceptOf": "conceptscheme:periodeformeleeenheid"
+        },
+        {
+            "id": "concept:quartair",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.quartair",
+            "inScheme": "conceptscheme:periodeformeleeenheid",
+            "notation": "QU",
+            "prefLabel": "Quartair",
+            "topConceptOf": "conceptscheme:periodeformeleeenheid"
+        },
+        {
+            "id": "concept:siluur",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.siluur",
+            "inScheme": "conceptscheme:periodeformeleeenheid",
+            "notation": "SI",
+            "prefLabel": "Siluur",
+            "topConceptOf": "conceptscheme:periodeformeleeenheid"
+        },
+        {
+            "id": "concept:trias",
+            "type": "skos:Concept",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.trias",
+            "inScheme": "conceptscheme:periodeformeleeenheid",
+            "notation": "TR",
+            "prefLabel": "Trias",
+            "topConceptOf": "conceptscheme:periodeformeleeenheid"
+        },
+        {
+            "id": "conceptscheme:periodeformeleeenheid",
+            "type": "skos:ConceptScheme",
+            "dc.identifier": "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.periodeformeleeenheid",
+            "hasTopConcept": [
+                "concept:cambrium",
+                "concept:carboon",
+                "concept:devoon",
+                "concept:jura",
+                "concept:krijt",
+                "concept:neogeen",
+                "concept:onbekend",
+                "concept:ordovicium",
+                "concept:paleogeen",
+                "concept:perm",
+                "concept:precambrium",
+                "concept:quartair",
+                "concept:siluur",
+                "concept:trias"
+            ],
+            "prefLabel": "Geologische periodes"
+        }
+    ]
 }
