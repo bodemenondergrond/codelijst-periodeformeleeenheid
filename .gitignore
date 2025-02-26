@@ -1,4 +1,5 @@
 target/
+temp/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -17,5 +18,6 @@ buildNumber.properties
 .classpath
 temp
 codelijst-periodeformeleeenheid.iml
+node_modules/
 src/.env
 src/utils/setenv.js

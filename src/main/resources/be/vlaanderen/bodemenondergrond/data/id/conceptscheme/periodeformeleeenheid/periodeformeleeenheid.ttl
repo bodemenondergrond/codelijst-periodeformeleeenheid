@@ -54,93 +54,116 @@
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-collectie:periodeformeleeenheid dc:identifier "be.vlaanderen.bodemenondergrond.data.id.collection.periodeformeleeenheid.periodeformeleeenheid";
-    a skos:Collection;
-    skos:inScheme conceptscheme:periodeformeleeenheid;
-    skos:member concept:cambrium, concept:carboon, concept:devoon, concept:jura, concept:krijt, concept:neogeen, concept:onbekend, concept:ordovicium, concept:paleogeen, concept:perm, concept:precambrium, concept:quartair, concept:siluur, concept:trias;
-    skos:prefLabel "Collectie van periodeformeleeenheid."@nl.
 concept:cambrium dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.cambrium";
     a skos:Concept;
+    skos:definition "De geologische periode van 485 tot 539 miljoen jaar geleden."@nl;
     skos:inScheme conceptscheme:periodeformeleeenheid;
     skos:notation "CM";
+    skos:note "De geologische periode van 485 tot 539 miljoen jaar geleden."@nl;
     skos:prefLabel "Cambrium"@nl;
     skos:topConceptOf conceptscheme:periodeformeleeenheid.
 concept:carboon dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.carboon";
     a skos:Concept;
+    skos:definition "De geologische periode van 299 tot 359 miljoen jaar geleden."@nl;
     skos:inScheme conceptscheme:periodeformeleeenheid;
     skos:notation "CB";
+    skos:note "De geologische periode van 299 tot 359 miljoen jaar geleden."@nl;
     skos:prefLabel "Carboon"@nl;
     skos:topConceptOf conceptscheme:periodeformeleeenheid.
 concept:devoon dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.devoon";
     a skos:Concept;
+    skos:definition "De geologische periode van 359 tot 419 miljoen jaar geleden."@nl;
     skos:inScheme conceptscheme:periodeformeleeenheid;
     skos:notation "DE";
+    skos:note "De geologische periode van 359 tot 419 miljoen jaar geleden."@nl;
     skos:prefLabel "Devoon"@nl;
     skos:topConceptOf conceptscheme:periodeformeleeenheid.
 concept:jura dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.jura";
     a skos:Concept;
+    skos:definition "De geologische periode van 145 tot 201 miljoen jaar geleden."@nl;
     skos:inScheme conceptscheme:periodeformeleeenheid;
     skos:notation "JU";
+    skos:note "De geologische periode van 145 tot 201 miljoen jaar geleden."@nl;
     skos:prefLabel "Jura"@nl;
     skos:topConceptOf conceptscheme:periodeformeleeenheid.
 concept:krijt dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.krijt";
     a skos:Concept;
+    skos:definition "De geologische periode van 66 tot 145 miljoen jaar geleden."@nl;
     skos:inScheme conceptscheme:periodeformeleeenheid;
     skos:notation "KR";
+    skos:note "De geologische periode van 66 tot 145 miljoen jaar geleden."@nl;
     skos:prefLabel "Krijt"@nl;
     skos:topConceptOf conceptscheme:periodeformeleeenheid.
 concept:neogeen dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.neogeen";
     a skos:Concept;
+    skos:definition "De geologische periode van 2,6 tot 23 miljoen jaar geleden."@nl;
     skos:inScheme conceptscheme:periodeformeleeenheid;
     skos:notation "NE";
+    skos:note "De geologische periode van 2,6 tot 23 miljoen jaar geleden."@nl;
     skos:prefLabel "Neogeen"@nl;
     skos:topConceptOf conceptscheme:periodeformeleeenheid.
 concept:onbekend dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.onbekend";
     a skos:Concept;
+    skos:definition "De geologische periode is onbekend."@nl;
     skos:inScheme conceptscheme:periodeformeleeenheid;
     skos:notation "ON";
+    skos:note "De geologische periode is onbekend."@nl;
     skos:prefLabel "onbekend"@nl;
     skos:topConceptOf conceptscheme:periodeformeleeenheid.
 concept:ordovicium dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.ordovicium";
     a skos:Concept;
+    skos:definition "De geologische periode van 444 tot 485 miljoen jaar geleden."@nl;
     skos:inScheme conceptscheme:periodeformeleeenheid;
     skos:notation "OR";
+    skos:note "De geologische periode van 444 tot 485 miljoen jaar geleden."@nl;
     skos:prefLabel "Ordovicium"@nl;
     skos:topConceptOf conceptscheme:periodeformeleeenheid.
 concept:paleogeen dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.paleogeen";
     a skos:Concept;
+    skos:definition "De geologische periode van 23 tot 66 miljoen jaar geleden."@nl;
     skos:inScheme conceptscheme:periodeformeleeenheid;
     skos:notation "PA";
+    skos:note "De geologische periode van 23 tot 66 miljoen jaar geleden."@nl;
     skos:prefLabel "Paleogeen"@nl;
     skos:topConceptOf conceptscheme:periodeformeleeenheid.
 concept:perm dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.perm";
     a skos:Concept;
+    skos:definition "De geologische periode van 252 tot 299 miljoen jaar geleden."@nl;
     skos:inScheme conceptscheme:periodeformeleeenheid;
     skos:notation "PE";
+    skos:note "De geologische periode van 252 tot 299 miljoen jaar geleden."@nl;
     skos:prefLabel "Perm"@nl;
     skos:topConceptOf conceptscheme:periodeformeleeenheid.
 concept:precambrium dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.precambrium";
     a skos:Concept;
+    skos:definition "De geologische periode van 539 miljoen jaar tot 4,57 miljard jaar geleden."@nl;
     skos:inScheme conceptscheme:periodeformeleeenheid;
     skos:notation "PC";
+    skos:note "De geologische periode van 539 miljoen jaar tot 4,57 miljard jaar geleden."@nl;
     skos:prefLabel "Precambrium"@nl;
     skos:topConceptOf conceptscheme:periodeformeleeenheid.
 concept:quartair dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.quartair";
     a skos:Concept;
+    skos:definition "De geologische periode vanaf heden tot 2,6 miljoen jaar geleden."@nl;
     skos:inScheme conceptscheme:periodeformeleeenheid;
     skos:notation "QU";
+    skos:note "De geologische periode vanaf heden tot 2,6 miljoen jaar geleden."@nl;
     skos:prefLabel "Quartair"@nl;
     skos:topConceptOf conceptscheme:periodeformeleeenheid.
 concept:siluur dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.siluur";
     a skos:Concept;
+    skos:definition "De geologische periode van 419 tot 444 miljoen jaar geleden."@nl;
     skos:inScheme conceptscheme:periodeformeleeenheid;
     skos:notation "SI";
+    skos:note "De geologische periode van 419 tot 444 miljoen jaar geleden."@nl;
     skos:prefLabel "Siluur"@nl;
     skos:topConceptOf conceptscheme:periodeformeleeenheid.
 concept:trias dc:identifier "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.trias";
     a skos:Concept;
+    skos:definition "De geologische periode van 201 tot 252 miljoen jaar geleden."@nl;
     skos:inScheme conceptscheme:periodeformeleeenheid;
     skos:notation "TR";
+    skos:note "De geologische periode van 201 tot 252 miljoen jaar geleden."@nl;
     skos:prefLabel "Trias"@nl;
     skos:topConceptOf conceptscheme:periodeformeleeenheid.
 conceptscheme:periodeformeleeenheid dc:identifier "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.periodeformeleeenheid";

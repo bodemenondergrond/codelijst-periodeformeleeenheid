@@ -1,103 +1,113 @@
-<https://data.bodemenondergrond.vlaanderen.be/id/collection/periodeformeleeenheid/periodeformeleeenheid> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.collection.periodeformeleeenheid.periodeformeleeenheid" .
-<https://data.bodemenondergrond.vlaanderen.be/id/collection/periodeformeleeenheid/periodeformeleeenheid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> .
-<https://data.bodemenondergrond.vlaanderen.be/id/collection/periodeformeleeenheid/periodeformeleeenheid> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
-<https://data.bodemenondergrond.vlaanderen.be/id/collection/periodeformeleeenheid/periodeformeleeenheid> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/cambrium> .
-<https://data.bodemenondergrond.vlaanderen.be/id/collection/periodeformeleeenheid/periodeformeleeenheid> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/carboon> .
-<https://data.bodemenondergrond.vlaanderen.be/id/collection/periodeformeleeenheid/periodeformeleeenheid> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/devoon> .
-<https://data.bodemenondergrond.vlaanderen.be/id/collection/periodeformeleeenheid/periodeformeleeenheid> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/jura> .
-<https://data.bodemenondergrond.vlaanderen.be/id/collection/periodeformeleeenheid/periodeformeleeenheid> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/krijt> .
-<https://data.bodemenondergrond.vlaanderen.be/id/collection/periodeformeleeenheid/periodeformeleeenheid> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/neogeen> .
-<https://data.bodemenondergrond.vlaanderen.be/id/collection/periodeformeleeenheid/periodeformeleeenheid> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/onbekend> .
-<https://data.bodemenondergrond.vlaanderen.be/id/collection/periodeformeleeenheid/periodeformeleeenheid> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/ordovicium> .
-<https://data.bodemenondergrond.vlaanderen.be/id/collection/periodeformeleeenheid/periodeformeleeenheid> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/paleogeen> .
-<https://data.bodemenondergrond.vlaanderen.be/id/collection/periodeformeleeenheid/periodeformeleeenheid> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/perm> .
-<https://data.bodemenondergrond.vlaanderen.be/id/collection/periodeformeleeenheid/periodeformeleeenheid> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/precambrium> .
-<https://data.bodemenondergrond.vlaanderen.be/id/collection/periodeformeleeenheid/periodeformeleeenheid> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/quartair> .
-<https://data.bodemenondergrond.vlaanderen.be/id/collection/periodeformeleeenheid/periodeformeleeenheid> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/siluur> .
-<https://data.bodemenondergrond.vlaanderen.be/id/collection/periodeformeleeenheid/periodeformeleeenheid> <http://www.w3.org/2004/02/skos/core#member> <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/trias> .
-<https://data.bodemenondergrond.vlaanderen.be/id/collection/periodeformeleeenheid/periodeformeleeenheid> <http://www.w3.org/2004/02/skos/core#prefLabel> "Collectie van periodeformeleeenheid."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/cambrium> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.cambrium" .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/cambrium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/cambrium> <http://www.w3.org/2004/02/skos/core#definition> "De geologische periode van 485 tot 539 miljoen jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/cambrium> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/cambrium> <http://www.w3.org/2004/02/skos/core#notation> "CM" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/cambrium> <http://www.w3.org/2004/02/skos/core#note> "De geologische periode van 485 tot 539 miljoen jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/cambrium> <http://www.w3.org/2004/02/skos/core#prefLabel> "Cambrium"@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/cambrium> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/carboon> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.carboon" .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/carboon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/carboon> <http://www.w3.org/2004/02/skos/core#definition> "De geologische periode van 299 tot 359 miljoen jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/carboon> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/carboon> <http://www.w3.org/2004/02/skos/core#notation> "CB" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/carboon> <http://www.w3.org/2004/02/skos/core#note> "De geologische periode van 299 tot 359 miljoen jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/carboon> <http://www.w3.org/2004/02/skos/core#prefLabel> "Carboon"@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/carboon> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/devoon> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.devoon" .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/devoon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/devoon> <http://www.w3.org/2004/02/skos/core#definition> "De geologische periode van 359 tot 419 miljoen jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/devoon> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/devoon> <http://www.w3.org/2004/02/skos/core#notation> "DE" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/devoon> <http://www.w3.org/2004/02/skos/core#note> "De geologische periode van 359 tot 419 miljoen jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/devoon> <http://www.w3.org/2004/02/skos/core#prefLabel> "Devoon"@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/devoon> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/jura> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.jura" .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/jura> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/jura> <http://www.w3.org/2004/02/skos/core#definition> "De geologische periode van 145 tot 201 miljoen jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/jura> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/jura> <http://www.w3.org/2004/02/skos/core#notation> "JU" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/jura> <http://www.w3.org/2004/02/skos/core#note> "De geologische periode van 145 tot 201 miljoen jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/jura> <http://www.w3.org/2004/02/skos/core#prefLabel> "Jura"@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/jura> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/krijt> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.krijt" .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/krijt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/krijt> <http://www.w3.org/2004/02/skos/core#definition> "De geologische periode van 66 tot 145 miljoen jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/krijt> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/krijt> <http://www.w3.org/2004/02/skos/core#notation> "KR" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/krijt> <http://www.w3.org/2004/02/skos/core#note> "De geologische periode van 66 tot 145 miljoen jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/krijt> <http://www.w3.org/2004/02/skos/core#prefLabel> "Krijt"@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/krijt> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/neogeen> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.neogeen" .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/neogeen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/neogeen> <http://www.w3.org/2004/02/skos/core#definition> "De geologische periode van 2,6 tot 23 miljoen jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/neogeen> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/neogeen> <http://www.w3.org/2004/02/skos/core#notation> "NE" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/neogeen> <http://www.w3.org/2004/02/skos/core#note> "De geologische periode van 2,6 tot 23 miljoen jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/neogeen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Neogeen"@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/neogeen> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/onbekend> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.onbekend" .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/onbekend> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/onbekend> <http://www.w3.org/2004/02/skos/core#definition> "De geologische periode is onbekend."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/onbekend> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/onbekend> <http://www.w3.org/2004/02/skos/core#notation> "ON" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/onbekend> <http://www.w3.org/2004/02/skos/core#note> "De geologische periode is onbekend."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/onbekend> <http://www.w3.org/2004/02/skos/core#prefLabel> "onbekend"@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/onbekend> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/ordovicium> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.ordovicium" .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/ordovicium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/ordovicium> <http://www.w3.org/2004/02/skos/core#definition> "De geologische periode van 444 tot 485 miljoen jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/ordovicium> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/ordovicium> <http://www.w3.org/2004/02/skos/core#notation> "OR" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/ordovicium> <http://www.w3.org/2004/02/skos/core#note> "De geologische periode van 444 tot 485 miljoen jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/ordovicium> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ordovicium"@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/ordovicium> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/paleogeen> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.paleogeen" .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/paleogeen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/paleogeen> <http://www.w3.org/2004/02/skos/core#definition> "De geologische periode van 23 tot 66 miljoen jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/paleogeen> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/paleogeen> <http://www.w3.org/2004/02/skos/core#notation> "PA" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/paleogeen> <http://www.w3.org/2004/02/skos/core#note> "De geologische periode van 23 tot 66 miljoen jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/paleogeen> <http://www.w3.org/2004/02/skos/core#prefLabel> "Paleogeen"@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/paleogeen> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/perm> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.perm" .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/perm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/perm> <http://www.w3.org/2004/02/skos/core#definition> "De geologische periode van 252 tot 299 miljoen jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/perm> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/perm> <http://www.w3.org/2004/02/skos/core#notation> "PE" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/perm> <http://www.w3.org/2004/02/skos/core#note> "De geologische periode van 252 tot 299 miljoen jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/perm> <http://www.w3.org/2004/02/skos/core#prefLabel> "Perm"@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/perm> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/precambrium> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.precambrium" .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/precambrium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/precambrium> <http://www.w3.org/2004/02/skos/core#definition> "De geologische periode van 539 miljoen jaar tot 4,57 miljard jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/precambrium> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/precambrium> <http://www.w3.org/2004/02/skos/core#notation> "PC" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/precambrium> <http://www.w3.org/2004/02/skos/core#note> "De geologische periode van 539 miljoen jaar tot 4,57 miljard jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/precambrium> <http://www.w3.org/2004/02/skos/core#prefLabel> "Precambrium"@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/precambrium> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/quartair> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.quartair" .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/quartair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/quartair> <http://www.w3.org/2004/02/skos/core#definition> "De geologische periode vanaf heden tot 2,6 miljoen jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/quartair> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/quartair> <http://www.w3.org/2004/02/skos/core#notation> "QU" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/quartair> <http://www.w3.org/2004/02/skos/core#note> "De geologische periode vanaf heden tot 2,6 miljoen jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/quartair> <http://www.w3.org/2004/02/skos/core#prefLabel> "Quartair"@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/quartair> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/siluur> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.siluur" .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/siluur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/siluur> <http://www.w3.org/2004/02/skos/core#definition> "De geologische periode van 419 tot 444 miljoen jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/siluur> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/siluur> <http://www.w3.org/2004/02/skos/core#notation> "SI" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/siluur> <http://www.w3.org/2004/02/skos/core#note> "De geologische periode van 419 tot 444 miljoen jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/siluur> <http://www.w3.org/2004/02/skos/core#prefLabel> "Siluur"@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/siluur> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/trias> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.concept.periodeformeleeenheid.trias" .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/trias> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/trias> <http://www.w3.org/2004/02/skos/core#definition> "De geologische periode van 201 tot 252 miljoen jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/trias> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/trias> <http://www.w3.org/2004/02/skos/core#notation> "TR" .
+<https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/trias> <http://www.w3.org/2004/02/skos/core#note> "De geologische periode van 201 tot 252 miljoen jaar geleden."@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/trias> <http://www.w3.org/2004/02/skos/core#prefLabel> "Trias"@nl .
 <https://data.bodemenondergrond.vlaanderen.be/id/concept/periodeformeleeenheid/trias> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> .
 <https://data.bodemenondergrond.vlaanderen.be/id/conceptscheme/periodeformeleeenheid> <http://purl.org/dc/elements/1.1/identifier> "be.vlaanderen.bodemenondergrond.data.id.conceptscheme.periodeformeleeenheid" .
