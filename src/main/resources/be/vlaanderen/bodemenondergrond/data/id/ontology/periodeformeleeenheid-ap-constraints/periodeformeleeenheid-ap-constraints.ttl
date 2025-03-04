@@ -34,7 +34,7 @@ beo_ont:periodeformeleeenheid
     xkos:belongsTo  beo_dataset:codelijst-periodeformeleeenheid ;
     xhv:last        beo_voc:periodeformeleeenheid ;
     owl:sameAs      beo_voc:periodeformeleeenheid ;
-    owl:versionInfo "Versie 3.0.0  maart 2024"@en .
+    owl:versionInfo "Versie 0.1.0 maart 2025"@en .
 
 
 beo_voc:periodeformeleeenheid
@@ -61,8 +61,6 @@ ons:schema
     sh:closed true ;
     sh:targetClass   skos:ConceptScheme .
 
-
-
 ons:collection
     a                sh:NodeShape ;
     rdfs:label       "verzameling"@en ;
@@ -73,8 +71,6 @@ ons:collection
                      omg_ps:inScheme, omg_ps:rdf_type;
     sh:closed true ;
     sh:targetClass   skos:Collection .
-
-
 
 ons:concept
     a                sh:NodeShape ;
@@ -90,8 +86,6 @@ ons:concept
                      omg_ps:rdf_type, omg_ps:note ;
     sh:closed true ;
     sh:targetClass   skos:Concept .
-
-
 
 # Property Shapes
 
@@ -226,7 +220,7 @@ omg_ps:notation
     a                sh:PropertyShape ;
     rdfs:label       "notatie"@en ;
     sh:name          "notatie"@en ;
-    sh:description   "Een notatie, ook wel classificatiecode genoemd, is een reeks tekens zoals \"PCB151\" of \"EtFOSA\" die wordt gebruikt om een matrix op unieke wijze te identificeren binnen de context van dit schema."@en ;
+    sh:description   "Een notatie, ook wel classificatiecode genoemd, is een reeks tekens zoals \"PCB151\" of \"EtFOSA\" die wordt gebruikt om een periode op unieke wijze te identificeren binnen de context van dit schema."@en ;
     rdfs:isDefinedBy beo_ont:periodeformeleeenheid, beo_voc:periodeformeleeenheid ;
     sh:datatype      xsd:string ;
     sh:nodeKind      sh:Literal ;
@@ -237,7 +231,7 @@ omg_ps:unique_notation
     a                  sh:PropertyShape ;
     rdfs:label         "unieke notatie"@en ;
     sh:name            "unieke notatie"@en ;
-    sh:description     "Een notatie, ook wel classificatiecode genoemd, is een reeks tekens zoals \"PCB151\" of \"EtFOSA\" die wordt gebruikt om een matrix op unieke wijze te identificeren binnen de context van dit schema. Er kan vanuit verschillende classificatiesystemen, met meerdere notaties verwezen worden naar een matrix, maar een notatie is uniek voor een matrix, ttz. vanuit 1 notatie kan slechts naar 1 matrix worden verwezen."@en ;
+    sh:description     "Een notatie, ook wel classificatiecode genoemd, is een reeks tekens zoals \"PCB151\" of \"EtFOSA\" die wordt gebruikt om een periode op unieke wijze te identificeren binnen de context van dit schema. Er kan vanuit verschillende classificatiesystemen, met meerdere notaties verwezen worden naar een periode, maar een notatie is uniek voor een periode, ttz. vanuit 1 notatie kan slechts naar 1 periode worden verwezen."@en ;
     rdfs:isDefinedBy   beo_ont:periodeformeleeenheid, beo_voc:periodeformeleeenheid ;
     sh:nodeKind        sh:IRI ;
     sh:targetObjectsOf skos:notation ;
@@ -261,7 +255,7 @@ omg_ps:references
     a                sh:PropertyShape ;
     rdfs:label       "wordt vermeld in"@en ;
     sh:name          "wordt vermeld in"@en ;
-    sh:description   "Binnen dit schema wordt dct:references gebruikt om de relatie tussen analysemethodes en wat geanalyseerd wordt te leggen, die betrekking hebben op de matrix."@en ;
+    sh:description   "Binnen dit schema wordt dct:references gebruikt om de relatie tussen analysemethodes en wat geanalyseerd wordt te leggen, die betrekking hebben op de periode formele eenheid."@en ;
     rdfs:isDefinedBy beo_ont:periodeformeleeenheid, beo_voc:periodeformeleeenheid ;
     sh:nodeKind      sh:IRI ;
     sh:path          dct:references .
