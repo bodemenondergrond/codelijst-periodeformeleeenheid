@@ -9,7 +9,7 @@
 
   <groupId>be.vlaanderen.bodemenondergrond.data.id.graph</groupId> <!-- e.g. be.vlaanderen.bodemenondergrond.data.id.graph -->
   <artifactId>codelijst-periodeformeleeenheid</artifactId> <!-- e.g. codelijst-testrepo -->
-  <version>0.1.1-SNAPSHOT</version> <!-- 0.1.0-SNAPSHOT -->
+  <version>0.1.1</version> <!-- 0.1.0-SNAPSHOT -->
   <packaging>jar</packaging>
 
   <name>codelijst-periodeformeleeenheid</name> <!-- e.g. codelijst-testrepo -->
@@ -19,7 +19,7 @@
         <connection>scm:git:https://github.com/bodemenondergrond/codelijst-periodeformeleeenheid.git</connection>
         <developerConnection>scm:git:https://github.com/bodemenondergrond/codelijst-periodeformeleeenheid.git</developerConnection>
         <url>https://github.com/bodemenondergrond/codelijst-periodeformeleeenheid.git</url>
-    <tag>HEAD</tag>
+    <tag>codelijst-periodeformeleeenheid-0.1.1</tag>
   </scm>
   <build>
     <plugins>
